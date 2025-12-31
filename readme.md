@@ -4,12 +4,12 @@ Este archivo contiene un script en Python que utiliza la biblioteca **pandas** p
 
 ## Archivos Requeridos
 
-- **gastos.xlsx**: 
+- **gastos.xlsx** ( Estadisticas > Consulta de gastos por concepto ):
   - Debe contener una hoja de cálculo con al menos las siguientes columnas:
     - **Comprobante**: Un identificador del comprobante.
     - **Neto s/imp.**: El valor neto sin impuestos.
 
-- **comprobantes.xlsx**: 
+- **comprobantes.xlsx** ( Compras > Consultas > Consulta Comprobantes de compra > Comprobantes por fecha ): 
   - Debe contener una hoja de cálculo con al menos las siguientes columnas:
     - **Número**: Un número único que puede ser parte del identificador del comprobante.
     - **Unitario**: Un valor asociado a cada número.
